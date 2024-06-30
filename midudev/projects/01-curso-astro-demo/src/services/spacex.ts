@@ -1,7 +1,7 @@
 import { type Doc, type APISpaceXResponse } from "../types/api";
 
 export const getLatestLaunches = async () => {
-  const res = await fetch("https://api.spacexdata.com/v3/launches/quer", {
+  const res = await fetch("https://api.spacexdata.com/v5/launches/query", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
